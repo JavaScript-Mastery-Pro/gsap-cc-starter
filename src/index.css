@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  code {
+    @apply font-mono text-sm bg-zinc-900 text-orange-400 p-1
+  }
+
+  h1 {
+    @apply text-3xl font-bold text-zinc-50
+  }
+
+  main {
+    @apply mx-auto max-w-3xl ring-1 bg-zinc-900 ring-zinc-300/20 xl:max-w-5xl min-h-screen p-10
+  }
+
+  a {
+    @apply text-blue-400 hover:text-blue-500
+  }
+
+  button {
+    @apply bg-slate-500 hover:bg-slate-600 text-zinc-50 px-4 py-2 rounded-md
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply mx-auto max-w-3xl ring-1 bg-zinc-900 ring-zinc-300/20 xl:max-w-5xl min-h-screen p-10
+  }
+}
