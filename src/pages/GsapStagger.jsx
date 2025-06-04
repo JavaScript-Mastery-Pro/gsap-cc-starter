@@ -7,7 +7,7 @@ const GsapStagger = () => {
 
       <p className="mt-5 text-gray-500">
         GSAP stagger is a feature that allows you to apply animations with a
-        staggered delay to a group of elements.
+        staggered delay to a group of elements. 
       </p>
 
       <p className="mt-5 text-gray-500">
